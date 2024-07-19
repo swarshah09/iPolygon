@@ -39,6 +39,13 @@ body {
     margin-left: 20px;
     /* Adjust as needed */
     transition: all 1.3s ease;
+    display: flex;
+}
+
+.nvlicon {
+    width: 20px; 
+    height: 20px;
+    margin-top: 11px;
 }
 
 .nav-link {
@@ -232,6 +239,7 @@ body {
     height: 500px;
 }
 
+
 .nvl {
     color: #000; 
     position: relative;
@@ -349,7 +357,7 @@ body {
 
 .text1{
     margin-top: 50px;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 1.5;
 }
 .text2{
@@ -708,3 +716,86 @@ button:active {
     right: 0;
     width: 0;
   }
+
+/* aboutUs */
+.page9{
+    margin-top: 130px;
+    padding: 50px;
+    height: 470px;
+    background-color: white;
+    background-image: linear-gradient(white, rgb(244, 244, 244));
+}
+.page9 h1{
+    font-size: 80px;
+}
+.c5{
+    align-items: center;
+    text-align: center; 
+}
+.page10{
+    margin-top: 70px;
+    padding: 50px;
+    height: 470px;
+    background-color: white;
+    background-image: linear-gradient(white, rgb(244, 244, 244));
+}
+.abtus{
+    font-size: 13px;
+}
+
+.page11{
+    margin-top: 130px;
+    padding: 50px;
+    height: 470px;
+    background-color: white;
+    background-image: linear-gradient(white, rgb(244, 244, 244));
+}
+.c7{
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+}
+.left{
+    width: 50%;
+}
+.left h1{
+    font-size: 60px;
+}
+.left p{
+    font-size: 23px;
+}
+
+.right img{
+    width: 550px;
+    height: 300px;
+}
+
+.page12{
+    margin-top: 130px;
+    padding: 50px;
+    height: 470px;
+    background-color: white;
+    background-image: linear-gradient(white, rgb(244, 244, 244));
+}
+.c8{
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+}
+
+.right2 img{
+    width: 580px;
+    height: 400px;
+    padding-right: 8px;
+}
+.left2{
+    align-items: center;
+    margin-top: 10%;
+
+}
+.left2 h1{
+    font-size: 60px;
+}
+.left2 p{
+    font-size: 23px;
+}
